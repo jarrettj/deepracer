@@ -113,7 +113,7 @@ estimator = RLEstimator(entry_point="training_worker.py",
                                          "model_metadata_s3_key": "s3://{}/custom_files/model_metadata.json".format(s3_bucket),
                                          "RLCOACH_PRESET": RLCOACH_PRESET,
                                          #"pretrained_s3_bucket": "{}".format(s3_bucket),
-                                         #"pretrained_s3_prefix": "rl-deepracer-pretrained"
+                                         #"pretrained_s3_prefix": "rl-deepracer-pretrained",
                                          "loss_type": "mean squared error",
                                          # "batch_size": 64,
                                          # "num_epochs": 10,
